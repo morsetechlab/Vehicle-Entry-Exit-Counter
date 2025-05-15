@@ -33,6 +33,14 @@ A real-time vehicle counting system using Object Detection and Object Tracking t
 
 ---
 
+## System in Action
+
+The GIF below demonstrates how the system detects and counts vehicles as they move through the defined IN/OUT lines within a polygonal ROI.
+
+![Vehicle Counting Demo](output.gif)
+
+---
+
 ## How to Use
 
 1. Place your video in the `videos/` folder
