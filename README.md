@@ -40,6 +40,8 @@ video_name = "parking.mp4"
 model_name = "yolo11x.pt"
 ```
 
+🔗 Download: [parking.mp4](https://drive.google.com/file/d/1SHUg4CTJOr1VHGALDlz6n41lb7jXkLBc/view?usp=sharing)
+
 4. รันโปรแกรม:
 
 ```bash
