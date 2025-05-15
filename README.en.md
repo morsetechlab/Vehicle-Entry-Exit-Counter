@@ -97,8 +97,8 @@ pip install -r requirements.txt
 
 ## Attribution
 
-- [OpenCV](https://opencv.org) — Open source computer vision library
-- [YOLOv11](https://github.com/ultralytics/ultralytics) — Real-time object detection framework
+- Open source computer vision library [OpenCV](https://opencv.org)
+- Real-time object detection framework [YOLOv11](https://github.com/ultralytics/ultralytics)
 - Developed by [MorseTech Lab](https://www.morsetechlab.com/)
 
 ---
