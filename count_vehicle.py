@@ -208,7 +208,7 @@ with tqdm(total=total_frames, desc="Processing") as pbar:
             total_height += th + line_spacing
             max_width = max(max_width, tw)
 
-        x_pad, y_pad = 20, 20
+        x_pad, y_pad = 20, 120
         x0 = frame.shape[1] - max_width - 2 * x_pad
         y0 = y_pad
         x1 = frame.shape[1] - x_pad

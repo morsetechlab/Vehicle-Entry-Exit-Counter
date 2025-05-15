@@ -1,3 +1,7 @@
+[📘 English version available here](README.en.md)
+
+---
+
 # ระบบนับจำนวนรถเข้า-ออกด้วย YOLOv11 + ByteTrack
 
 ระบบนับรถเข้า-ออกแบบเรียลไทม์ ด้วยเทคนิค Object Detection และ Object Tracking โดยใช้โมเดล **YOLOv11** สำหรับการตรวจจับ และ **ByteTrack** สำหรับการติดตามวัตถุด้วย track ID เพื่อวิเคราะห์การเคลื่อนผ่านเส้นเข้า/ออก (IN/OUT) ภายในบริเวณที่สนใจ (Polygon ROI) สามารถใช้งานได้กับวัตถุที่มีขนาดเล็กเนื่องจากจำกัดพื้นที่ตรวจจับ
@@ -40,7 +44,7 @@ video_name = "parking.mp4"
 model_name = "yolo11x.pt"
 ```
 
-🔗 Download: [parking.mp4](https://drive.google.com/file/d/1SHUg4CTJOr1VHGALDlz6n41lb7jXkLBc/view?usp=sharing)
+> 🔗 Download: [parking.mp4](https://drive.google.com/file/d/1SHUg4CTJOr1VHGALDlz6n41lb7jXkLBc/view?usp=sharing)
 
 4. รันโปรแกรม:
 
@@ -92,9 +96,9 @@ pip install -r requirements.txt
 
 ## Attribution
 
-- Open source computer vision library [OpenCV](https://opencv.org)
-- YOLOv11 [Ultralytics](https://github.com/ultralytics/ultralytics)
-- พัฒนาโดย **MorseTech Lab**
+- Open source computer vision library [OpenCV](https://opencv.org/)
+- YOLOv11 [Ultralytics](https://github.com/ultralytics/ultralytics/)
+- พัฒนาโดย [MorseTech Lab](https://www.morsetechlab.com/)
 
 ---
 
