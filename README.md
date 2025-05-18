@@ -1,10 +1,16 @@
 # [📘 English version available here](README.en.md)
 
+![Task: Vehicle Entry-Exit Counting](https://img.shields.io/badge/Task-Vehicle%20Counting-blue?style=for-the-badge)
+![Model: YOLOv11 + ByteTrack](https://img.shields.io/badge/Model-YOLOv11%20%2B%20ByteTrack-purple?style=for-the-badge)
+![Framework: OpenCV](https://img.shields.io/badge/Framework-OpenCV-red?style=for-the-badge)
+![Real-time Ready](https://img.shields.io/badge/Real--time-Yes-green?style=for-the-badge)
+
 ---
 
-# ระบบนับจำนวนรถเข้า-ออกด้วย YOLOv11 + ByteTrack
+# ระบบนับจำนวนรถเข้า-ออกด้วย YOLOv11 + ByteTrack  
+> ระบบตรวจจับและติดตามยานพาหนะแบบเรียลไทม์ โดยใช้ YOLOv11 สำหรับการตรวจจับ และ ByteTrack สำหรับการติดตามวัตถุ พร้อมวิเคราะห์การเคลื่อนผ่านเส้น IN/OUT ภายในพื้นที่ที่กำหนด เหมาะสำหรับลานจอดรถ ระบบ IoT และอุปกรณ์ Edge
 
-ระบบนับรถเข้า-ออกแบบเรียลไทม์ ด้วยเทคนิค Object Detection และ Object Tracking โดยใช้โมเดล **YOLOv11** สำหรับการตรวจจับ และ **ByteTrack** สำหรับการติดตามวัตถุด้วย track ID เพื่อวิเคราะห์การเคลื่อนผ่านเส้นเข้า/ออก (IN/OUT) ภายในบริเวณที่สนใจ (Polygon ROI) สามารถใช้งานได้กับวัตถุที่มีขนาดเล็กเนื่องจากจำกัดพื้นที่ตรวจจับ
+ระบบนี้ใช้เทคนิค Object Detection และ Object Tracking เพื่อนับจำนวนวัตถุที่เคลื่อนผ่านเส้นทางเข้า/ออกภายใน Polygon ROI จากวิดีโอหรือกล้องแบบเรียลไทม์ โดยสามารถติดตามวัตถุด้วย Track ID อย่างแม่นยำแม้ในกรณีที่มีการบดบัง (Occlusion) และรองรับการแสดงผล overlay เช่น IN / OUT / FPS บนวิดีโอที่ประมวลผลแล้ว
 
 ---
 
@@ -113,3 +119,30 @@ pip install -r requirements.txt
 ## 🛡️ License
 
 Project นี้เผยแพร่ภายใต้ [GNU Affero General Public License v3.0 (AGPLv3)](LICENSE) เพื่อให้สอดคล้องกับเงื่อนไขการใช้งานของไลบรารีที่เกี่ยวข้อง
+
+## Citation
+```bibtex
+@misc{morsetechlab2025vehiclecount,
+  title = {Real-time Vehicle Entry-Exit Counting using YOLOv11 and ByteTrack},
+  author = {MorseTech Lab},
+  year = {2025},
+  url = {https://github.com/morsetechlab/yolov11-vehicle-counter}
+}
+```
+
+<!--
+tags: Vehicle Counting, YOLOv11, ByteTrack, Object Detection, Object Tracking, Entry Exit Line, Parking Lot Monitoring, Computer Vision, OpenCV, Ultralytics, Real-time Analytics, Python, Edge Device
+-->
+
+<!-- Open Graph Meta Tags -->
+<meta property="og:title" content="Real-time Vehicle Entry-Exit Counting using YOLOv11 + ByteTrack" />
+<meta property="og:description" content="A real-time system for vehicle detection and tracking using YOLOv11 and ByteTrack, with IN/OUT line counting inside a polygonal ROI. Ideal for parking lots and edge devices." />
+<meta property="og:image" content="https://raw.githubusercontent.com/morsetechlab/yolov11-vehicle-counter/main/output.gif" />
+<meta property="og:url" content="https://github.com/morsetechlab/yolov11-vehicle-counter" />
+<meta property="og:type" content="website" />
+
+<!-- Twitter Card Meta -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Real-time Vehicle Entry-Exit Counting using YOLOv11 + ByteTrack" />
+<meta name="twitter:description" content="Detect and count vehicles crossing IN/OUT lines using YOLOv11 and ByteTrack in real-time. Optimized for edge deployment." />
+<meta name="twitter:image" content="https://raw.githubusercontent.com/morsetechlab/yolov11-vehicle-counter/main/output.gif" />
