@@ -138,15 +138,16 @@ to comply with all related open-source libraries and promote responsible use.
 tags: Vehicle Counting, YOLOv11, ByteTrack, Object Detection, Object Tracking, Entry Exit Line, Parking Lot Monitoring, Computer Vision, OpenCV, Ultralytics, Real-time Analytics, Python, Edge Device
 -->
 
-<!-- Open Graph Meta Tags -->
-<meta property="og:title" content="Real-time Vehicle Entry-Exit Counting using YOLOv11 + ByteTrack" />
-<meta property="og:description" content="A real-time system for vehicle detection and tracking using YOLOv11 and ByteTrack, with IN/OUT line counting inside a polygonal ROI. Ideal for parking lots and edge devices." />
+<!-- Open Graph / Twitter Meta -->
+<!--
+<meta property="og:title" content="YOLOv11 Vehicle Counter: Real-time Entry/Exit Counting with ByteTrack" />
+<meta property="og:description" content="Real-time vehicle detection and tracking system using YOLOv11 and ByteTrack. Counts vehicles crossing custom IN/OUT lines inside polygonal ROI." />
 <meta property="og:image" content="https://raw.githubusercontent.com/morsetechlab/yolov11-vehicle-counter/main/output.gif" />
 <meta property="og:url" content="https://github.com/morsetechlab/yolov11-vehicle-counter" />
 <meta property="og:type" content="website" />
 
-<!-- Twitter Card Meta -->
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Real-time Vehicle Entry-Exit Counting using YOLOv11 + ByteTrack" />
-<meta name="twitter:description" content="Detect and count vehicles crossing IN/OUT lines using YOLOv11 and ByteTrack in real-time. Optimized for edge deployment." />
+<meta name="twitter:title" content="YOLOv11 Vehicle Counter: Entry/Exit Tracking with ByteTrack" />
+<meta name="twitter:description" content="Detect and count vehicles in real-time using YOLOv11 and ByteTrack. Ideal for parking lots, IoT devices, and traffic analytics." />
 <meta name="twitter:image" content="https://raw.githubusercontent.com/morsetechlab/yolov11-vehicle-counter/main/output.gif" />
+-->
