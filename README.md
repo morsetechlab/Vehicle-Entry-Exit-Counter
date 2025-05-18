@@ -43,7 +43,9 @@
 
 ภาพ GIF ด้านล่างแสดงให้เห็นการทำงานของระบบนับรถเข้า-ออกแบบเรียลไทม์ โดยตรวจจับยานพาหนะที่เคลื่อนผ่านเส้น IN/OUT ภายในพื้นที่ Polygon ROI
 
-![Vehicle Counting Demo](output.gif)
+<p align="center">
+  <img src="output.gif" alt="Vehicle Counting Demo" style="width: 100%;" />
+</p>
 
 ▶️ **ชมวิดีโอสาธิตแบบเต็ม** ได้ที่ [YouTube](https://www.youtube.com/watch?v=17F-Efu0Z5M)
 

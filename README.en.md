@@ -43,7 +43,9 @@ This system leverages object detection and tracking techniques to count vehicles
 
 The GIF below demonstrates how the system detects and counts vehicles as they move through the defined IN/OUT lines within a polygonal ROI.
 
-![Vehicle Counting Demo](output.gif)
+<p align="center">
+  <img src="output.gif" alt="Vehicle Counting Demo" style="width: 100%;" />
+</p>
 
 ▶️ **Watch Full Demo** on [YouTube](https://www.youtube.com/watch?v=17F-Efu0Z5M)
 
