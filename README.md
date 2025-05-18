@@ -45,6 +45,8 @@
 
 ![Vehicle Counting Demo](output.gif)
 
+▶️ **ชมวิดีโอสาธิตแบบเต็ม** ได้ที่ [YouTube](https://www.youtube.com/watch?v=17F-Efu0Z5M)
+
 ---
 
 ## วิธีใช้งาน (How to use)

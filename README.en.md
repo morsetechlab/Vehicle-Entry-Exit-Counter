@@ -45,6 +45,8 @@ The GIF below demonstrates how the system detects and counts vehicles as they mo
 
 ![Vehicle Counting Demo](output.gif)
 
+▶️ **Watch Full Demo** on [YouTube](https://www.youtube.com/watch?v=17F-Efu0Z5M)
+
 ---
 
 ## How to Use
