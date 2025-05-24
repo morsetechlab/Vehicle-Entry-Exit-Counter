@@ -126,16 +126,6 @@ pip install -r requirements.txt
 This project is licensed under the [GNU Affero General Public License v3.0 (AGPLv3)](https://www.gnu.org/licenses/agpl-3.0.html)  
 to comply with all related open-source libraries and promote responsible use.
 
-## Citation
-```bibtex
-@misc{morsetechlab2025vehiclecount,
-  title = {Real-time Vehicle Entry-Exit Counting using YOLOv11 and ByteTrack},
-  author = {MorseTech Lab},
-  year = {2025},
-  url = {https://github.com/morsetechlab/yolov11-vehicle-counter}
-}
-```
-
 <!--
 tags: Vehicle Counting, YOLOv11, ByteTrack, Object Detection, Object Tracking, Entry Exit Line, Parking Lot Monitoring, Computer Vision, OpenCV, Ultralytics, Real-time Analytics, Python, Edge Device
 -->

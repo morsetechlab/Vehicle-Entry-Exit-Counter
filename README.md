@@ -124,16 +124,6 @@ pip install -r requirements.txt
 
 Project นี้เผยแพร่ภายใต้ [GNU Affero General Public License v3.0 (AGPLv3)](LICENSE) เพื่อให้สอดคล้องกับเงื่อนไขการใช้งานของไลบรารีที่เกี่ยวข้อง
 
-## Citation
-```bibtex
-@misc{morsetechlab2025vehiclecount,
-  title = {Real-time Vehicle Entry-Exit Counting using YOLOv11 and ByteTrack},
-  author = {MorseTech Lab},
-  year = {2025},
-  url = {https://github.com/morsetechlab/yolov11-vehicle-counter}
-}
-```
-
 <!--
 tags: Vehicle Counting, YOLOv11, ByteTrack, Object Detection, Object Tracking, Entry Exit Line, Parking Lot Monitoring, Computer Vision, OpenCV, Ultralytics, Real-time Analytics, Python, Edge Device
 -->
