@@ -1,9 +1,10 @@
 # [📘 เวอร์ชั่นภาษาไทยที่นี่](README.md)
 
-![Task: Vehicle Counting](https://img.shields.io/badge/Task-Vehicle%20Counting-blue?style=flat&logo=car&logoColor=white)
-![Model: YOLOv11 + ByteTrack](https://img.shields.io/badge/Model-YOLOv11%20%2B%20ByteTrack-purple?style=flat&logo=yolov5&logoColor=white)
-![Framework: OpenCV](https://img.shields.io/badge/Framework-OpenCV-red?style=flat&logo=opencv&logoColor=white)
-![Real-time Ready](https://img.shields.io/badge/Real--time-Yes-green?style=flat&logo=clockify&logoColor=white)
+![Task: Vehicle Entry-Exit Counting](https://img.shields.io/badge/Task-Vehicle%20Counting-blue?style=flat)
+![Model: YOLOv11 + ByteTrack](https://img.shields.io/badge/Model-YOLOv11%20%2B%20ByteTrack-purple?style=flat)
+![Framework: OpenCV](https://img.shields.io/badge/Framework-OpenCV-red?style=flat)
+![Real-time Ready](https://img.shields.io/badge/Real--time-Yes-green?style=flat)
+
 
 ---
 
